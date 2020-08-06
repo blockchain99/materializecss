@@ -1,0 +1,47 @@
+1. copy posts.html to login.html
+
+2. login.html, extend LOGIN icon:
+1) in login.html
+<input type="submit" value="Login" class="btn btn-large btn-extended
+grey lighten-4 black-text">
+
+2) in main.css,
+
+.login {
+margin-top: 70px;
+margin-bottom: 70px;
+}
+
+.btn-extended {
+display: block;
+width: 80%;
+margin: auto;
+margin-top: 20px;
+}
+
+3. copy posts.html to details.html
+in <!-- Add Post Modal --> copy follows.
+--- follows ---
+<form>
+  <div class="input-field">
+    <input type="text" id="title">
+    <label for="title">Title</label>
+  </div>
+  <div class="input-field">
+    <select>
+      <option value="" disabled selected>Select option</option>
+      <option value="1">Web Development</option>
+      <option value="2">Graphic Design</option>
+      <option value="3">Tech Gadgets</option>
+      <option value="4">Other</option>
+    </select>
+    <label>Category</label>
+  </div>
+  <div class="input-field">
+    <textarea name="body" id="body" class="materialize-textarea"></textarea>
+    <label for="body">Body</label>
+  </div>
+</form>
+---- end of follows. ----
+4. delete body label in box.
+delete : <label for="body">Body</label>

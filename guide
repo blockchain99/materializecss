@@ -1,0 +1,59 @@
+1. emmet
+1) ! tab -> html whole layout with head and body 
+2) h1 tab -> <h1></h1>
+3) h1#test tab -> <h1 id="test></h1>
+4) div.test tab -> <div class="test></div>
+5) .test tab -> same as 4)
+6) #test -> 3)
+
+2. atom live server
+1) atom : package -> atom-liver-server -> start
+in browser : 127.0.0.1:3000
+2) stop -> crtl + alt + q
+
+
+===========instead atom-live-server, use below http-server!! since I can't install atom-live-server==========
+* I viewed html page in vscode env. - use vscode!!!
+
+What do you mean by "live server"? Would you like to test website on your local network? If so, the easiest solution is (assuming you have node.js installed) to install http-server command-line tool. Install it globally with 
+
+$sudo npm install http-server -g, 
+
+then navigate (of course in terminal) to the directory where your website is and 
+
+type http-server command. 
+
+
+Message like this will appear: Starting up http-server, serving ./
+Available on:
+  http://192.168.1.6:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+
+To launch your website on your machine or another machine on the same network, just go to http:// ip :8080
+
+If you don't have node.js, Python also offers similar command-line tool. You can use it with:
+
+    If Python version is 3.X python -m http.server
+    If Python version is 2.X python -m SimpleHTTPServer
+
+============
+3. sandbox
+
+#part2
+1. travelville 
+1) https://fontawesome.com  / How to use /
+SVG JS / 
+COPY FOLLOWING : 
+
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+copy svg with javaScript
+
+INTO index.html head:
+
+- pexels.com : free high quality images site
+
+-------------------------------------
+firebase - web hosting how to.
+1. npm install -g firebase-tools
+2. if above installed, just >firebase login
